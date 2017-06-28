@@ -1,7 +1,11 @@
 # Kerberos Username Enumeration – Top 500 Common Usernames 
 
-The following username wordlists were created to identify valid usernames when targeting large Windows domains. The lists are compiled from the top 500 most common firstname and surname as per the United Kingdom’s Office for National Statistics (ONS).
+The following username wordlists were created to identify valid usernames when targeting large Windows domains using the Metasploit module:
+`auxiliary/gather/kerberos_enumusers`
 
+The lists are compiled from the top 500 most common firstname and surname as per the United Kingdom’s Office for National Statistics (ONS).
+
+```
 Username List				Word Count	File Size	Example
 Top 500 Female Firstnames		500		4K		AMELIA
 Top 500 Male First Names		500		4K		JACK
@@ -13,5 +17,6 @@ A.Surnames				500		5K		A.SMITH
 B.Surnames				500		5K		B.SMITH
 C.Surnames etc.				500		5K		C.SMITH
 Z.Surnames				500		s5K		Z.WYATT
+```
 
 For more detail please see the accompanying blog post: https://www.attackdebris.com/?p=364
